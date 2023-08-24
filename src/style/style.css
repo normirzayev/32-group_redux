@@ -1,0 +1,42 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.rasmlar {
+  display: grid;
+  width: 50%;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rasmlar figure {
+  transition: 0.5s ease-out;
+  opacity: 0;
+}
+.rasmlar .activeRasm {
+  opacity: 1;
+}
+
+.count h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.count span {
+  font-size: 30px;
+}
+
+.boxFlex {
+  display: flex;
+  gap: 20px;
+}
+.boxItem {
+  border: 2px solid black;
+  padding: 10px;
+}
